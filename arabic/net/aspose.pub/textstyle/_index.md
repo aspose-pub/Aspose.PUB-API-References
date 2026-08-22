@@ -1,9 +1,9 @@
 ---
-title: TextStyle
-second_title: Aspose.PUB لمرجع .NET API
-description: يصف نمط نص PUB
+title: "الفئة TextStyle"
+second_title: "Aspose.PUB لـ .NET مرجع API"
+description: "الفئة Aspose.Pub.TextStyle. تصف نمط النص في PUB."
 type: docs
-weight: 200
+weight: 330
 url: /ar/net/aspose.pub/textstyle/
 ---
 ## TextStyle class
@@ -14,58 +14,58 @@ url: /ar/net/aspose.pub/textstyle/
 public class TextStyle : BaseStyle
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TextStyle](textstyle)() | Default_Constructor |
+| [TextStyle](textstyle/)() | المنشئ |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ColorIndex](../../aspose.pub/textstyle/colorindex) { get; } | الحصول على فهرس الألوان في مصفوفة الألوان في المستند. |
-| [FontIndex](../../aspose.pub/textstyle/fontindex) { get; } | يحصل على فهرس اسم الخط في Document.FontNames array |
-| [IsAllCapsMode](../../aspose.pub/textstyle/isallcapsmode) { get; } | هل تم تمكين جميع أوضاع caps |
-| [IsBold](../../aspose.pub/textstyle/isbold) { get; } | هل النص bold |
-| [IsEmboss](../../aspose.pub/textstyle/isemboss) { get; } | هل النص منقوش |
-| [IsEmpty](../../aspose.pub/basestyle/isempty) { get; } | النمط غير مهيأ |
-| [IsEngrave](../../aspose.pub/textstyle/isengrave) { get; } | هل النص محفور |
-| [IsItalic](../../aspose.pub/textstyle/isitalic) { get; } | هل النص مائل |
-| [IsOutline](../../aspose.pub/textstyle/isoutline) { get; } | هل النص محدد |
-| [IsShadow](../../aspose.pub/textstyle/isshadow) { get; } | هل النص مظلل |
-| [IsSmallCapsMode](../../aspose.pub/textstyle/issmallcapsmode) { get; } | تم تمكين وضع الأحرف الكبيرة الصغيرة |
-| [Locale](../../aspose.pub/textstyle/locale) { get; } | معرف اللغة |
-| [RawTextSize](../../aspose.pub/textstyle/rawtextsize) { get; } | حجم النص في مقاييس PUB (في EMUs) |
-| [ScaleValue](../../aspose.pub/textstyle/scalevalue) { get; } | قيمة المقياس |
-| [SuperscriptType](../../aspose.pub/textstyle/superscripttype) { get; } | نوع superscript |
-| [UnderlineType](../../aspose.pub/textstyle/underlinetype) { get; } | نوع التسطير للنص |
+| [ColorIndex](../../aspose.pub/textstyle/colorindex/) { get; } | يحصل على فهرس اللون في مصفوفة Document.Colors |
+| [FontIndex](../../aspose.pub/textstyle/fontindex/) { get; } | يحصل على فهرس اسم الخط في مصفوفة Document.FontNames |
+| [IsAllCapsMode](../../aspose.pub/textstyle/isallcapsmode/) { get; } | هل وضع الأحرف الكبيرة بالكامل مفعّل |
+| [IsBold](../../aspose.pub/textstyle/isbold/) { get; } | هل النص غامق |
+| [IsEmboss](../../aspose.pub/textstyle/isemboss/) { get; } | هل النص بارز |
+| [IsEmpty](../../aspose.pub/basestyle/isempty/) { get; } | هل النمط غير مهيأ |
+| [IsEngrave](../../aspose.pub/textstyle/isengrave/) { get; } | هل النص محفور |
+| [IsItalic](../../aspose.pub/textstyle/isitalic/) { get; } | هل النص مائل |
+| [IsOutline](../../aspose.pub/textstyle/isoutline/) { get; } | هل النص محدد بالحد |
+| [IsShadow](../../aspose.pub/textstyle/isshadow/) { get; } | هل النص مظلل |
+| [IsSmallCapsMode](../../aspose.pub/textstyle/issmallcapsmode/) { get; } | هل وضع الأحرف الصغيرة مفعّل |
+| [Locale](../../aspose.pub/textstyle/locale/) { get; } | معرف الإعداد المحلي |
+| [RawTextSize](../../aspose.pub/textstyle/rawtextsize/) { get; } | حجم النص في مقاييس PUB (بالـ EMUs) |
+| [ScaleValue](../../aspose.pub/textstyle/scalevalue/) { get; } | قيمة المقياس |
+| [SuperscriptType](../../aspose.pub/textstyle/superscripttype/) { get; } | نوع النص المرتفع |
+| [UnderlineType](../../aspose.pub/textstyle/underlinetype/) { get; } | نوع التسطير للنص |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CalculateTextSize](../../aspose.pub/textstyle/calculatetextsize)() | حساب حجم النص بالنقاط |
-| [SetColorIndex](../../aspose.pub/textstyle/setcolorindex)(int) | يعين فهرس اللون في مصفوفة الألوان في المستند. |
-| [SetFontIndex](../../aspose.pub/textstyle/setfontindex)(int) | تعيين فهرس اسم الخط في مصفوفة أسماء الخطوط في المستند |
-| [SetIsAllCapsMode](../../aspose.pub/textstyle/setisallcapsmode)(bool) | تمكين / تعطيل كل وضع الأحرف الكبيرة للنص text |
-| [SetIsBold](../../aspose.pub/textstyle/setisbold)(bool) | مجموعات نصية bold |
-| [SetIsEmboss](../../aspose.pub/textstyle/setisemboss)(bool) | المجموعات عبارة عن نص منقوش |
-| [SetIsEngrave](../../aspose.pub/textstyle/setisengrave)(bool) | المجموعات عبارة عن نص محفور |
-| [SetIsItalic](../../aspose.pub/textstyle/setisitalic)(bool) | المجموعات نص مائل |
-| [SetIsOutline](../../aspose.pub/textstyle/setisoutline)(bool) | المجموعات عبارة عن نص محدد |
-| [SetIsShadow](../../aspose.pub/textstyle/setisshadow)(bool) | يتم تظليل مجموعات النص |
-| [SetIsSmallCapsMode](../../aspose.pub/textstyle/setissmallcapsmode)(bool) | تمكين / تعطيل وضع الأحرف الكبيرة الصغيرة للنص |
-| [SetLocale](../../aspose.pub/textstyle/setlocale)(int) | تعيين معرف الإعدادات المحلية |
-| [SetRawTextSize](../../aspose.pub/textstyle/setrawtextsize)(int) | تعيين حجم النص في مقاييس PUB (في EMUs) |
-| [SetScaleValue](../../aspose.pub/textstyle/setscalevalue)(double) | يحدد قيمة المقياس |
-| [SetSuperscriptType](../../aspose.pub/textstyle/setsuperscripttype)(SuperscriptType) | مجموعات نوع superscript |
-| [SetUnderlineType](../../aspose.pub/textstyle/setunderlinetype)(UnderlineType) | تعيين نوع التسطير للنص |
+| [CalculateTextSize](../../aspose.pub/textstyle/calculatetextsize/)() | يحسب حجم النص بالنقاط |
+| [SetColorIndex](../../aspose.pub/textstyle/setcolorindex/)(int) | يضبط فهرس اللون في مصفوفة Document.Colors |
+| [SetFontIndex](../../aspose.pub/textstyle/setfontindex/)(int) | يضبط فهرس اسم الخط في مصفوفة Document.FontNames |
+| [SetIsAllCapsMode](../../aspose.pub/textstyle/setisallcapsmode/)(bool) | يفعل/يعطل وضع الأحرف الكبيرة بالكامل للنص |
+| [SetIsBold](../../aspose.pub/textstyle/setisbold/)(bool) | يضبط النص غامقًا |
+| [SetIsEmboss](../../aspose.pub/textstyle/setisemboss/)(bool) | يضبط النص بارزًا |
+| [SetIsEngrave](../../aspose.pub/textstyle/setisengrave/)(bool) | يضبط النص محفورًا |
+| [SetIsItalic](../../aspose.pub/textstyle/setisitalic/)(bool) | يضبط النص مائلًا |
+| [SetIsOutline](../../aspose.pub/textstyle/setisoutline/)(bool) | يضبط النص محددًا |
+| [SetIsShadow](../../aspose.pub/textstyle/setisshadow/)(bool) | يضبط النص مُظللاً |
+| [SetIsSmallCapsMode](../../aspose.pub/textstyle/setissmallcapsmode/)(bool) | يفعل/يعطل وضع الأحرف الصغيرة للنص |
+| [SetLocale](../../aspose.pub/textstyle/setlocale/)(int) | يضبط معرف اللغة |
+| [SetRawTextSize](../../aspose.pub/textstyle/setrawtextsize/)(int) | يضبط حجم النص في مقاييس PUB (بوحدات EMU) |
+| [SetScaleValue](../../aspose.pub/textstyle/setscalevalue/)(double) | يضبط قيمة المقياس |
+| [SetSuperscriptType](../../aspose.pub/textstyle/setsuperscripttype/)(SuperscriptType) | يضبط نوع النص العلوي |
+| [SetUnderlineType](../../aspose.pub/textstyle/setunderlinetype/)(UnderlineType) | يضبط نوع التسطير للنص |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BaseStyle](../basestyle)
-* مساحة الاسم [Aspose.Pub](../../aspose.pub)
-* المجسم [Aspose.PUB](../../)
+* class [BaseStyle](../basestyle/)
+* namespace [Aspose.Pub](../../aspose.pub/)
+* assembly [Aspose.PUB](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.PUB.dll -->
+
