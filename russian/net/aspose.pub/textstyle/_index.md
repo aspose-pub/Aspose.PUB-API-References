@@ -1,14 +1,14 @@
 ---
-title: TextStyle
-second_title: Справочник по Aspose.PUB для .NET API
-description: Описывает текстовый стиль PUB
+title: "Класс TextStyle"
+second_title: "Справочник API Aspose.PUB для .NET"
+description: "Класс Aspose.Pub.TextStyle. Описывает стиль текста PUB."
 type: docs
-weight: 200
+weight: 330
 url: /ru/net/aspose.pub/textstyle/
 ---
 ## TextStyle class
 
-Описывает текстовый стиль PUB
+Описывает стиль текста PUB
 
 ```csharp
 public class TextStyle : BaseStyle
@@ -18,54 +18,54 @@ public class TextStyle : BaseStyle
 
 | Имя | Описание |
 | --- | --- |
-| [TextStyle](textstyle)() | Конструктор по умолчанию. |
+| [TextStyle](textstyle/)() | Конструктор |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [ColorIndex](../../aspose.pub/textstyle/colorindex) { get; } | Получает индекс цвета в Document.Colors array |
-| [FontIndex](../../aspose.pub/textstyle/fontindex) { get; } | Получает индекс имени шрифта в Document.FontNames array |
-| [IsAllCapsMode](../../aspose.pub/textstyle/isallcapsmode) { get; } | Включен ли режим всех заглавных букв |
-| [IsBold](../../aspose.pub/textstyle/isbold) { get; } | Текст полужирный |
-| [IsEmboss](../../aspose.pub/textstyle/isemboss) { get; } | Тиснение текста |
-| [IsEmpty](../../aspose.pub/basestyle/isempty) { get; } | Стиль не инициализирован |
-| [IsEngrave](../../aspose.pub/textstyle/isengrave) { get; } | Текст выгравирован |
-| [IsItalic](../../aspose.pub/textstyle/isitalic) { get; } | Выделен ли текст курсивом |
-| [IsOutline](../../aspose.pub/textstyle/isoutline) { get; } | Текст обведен |
-| [IsShadow](../../aspose.pub/textstyle/isshadow) { get; } | Затенен ли текст |
-| [IsSmallCapsMode](../../aspose.pub/textstyle/issmallcapsmode) { get; } | Включен ли режим прописных букв |
-| [Locale](../../aspose.pub/textstyle/locale) { get; } | Идентификатор локали |
-| [RawTextSize](../../aspose.pub/textstyle/rawtextsize) { get; } | Размер текста в метриках PUB (в EMU) |
-| [ScaleValue](../../aspose.pub/textstyle/scalevalue) { get; } | Значение масштаба |
-| [SuperscriptType](../../aspose.pub/textstyle/superscripttype) { get; } | Тип верхнего индекса |
-| [UnderlineType](../../aspose.pub/textstyle/underlinetype) { get; } | Тип подчеркивания для text |
+| [ColorIndex](../../aspose.pub/textstyle/colorindex/) { get; } | Получает индекс цвета в массиве Document.Colors |
+| [FontIndex](../../aspose.pub/textstyle/fontindex/) { get; } | Получает индекс имени шрифта в массиве Document.FontNames |
+| [IsAllCapsMode](../../aspose.pub/textstyle/isallcapsmode/) { get; } | Включён режим всех заглавных букв |
+| [IsBold](../../aspose.pub/textstyle/isbold/) { get; } | Текст жирный |
+| [IsEmboss](../../aspose.pub/textstyle/isemboss/) { get; } | Текст рельефный |
+| [IsEmpty](../../aspose.pub/basestyle/isempty/) { get; } | Стиль не инициализирован |
+| [IsEngrave](../../aspose.pub/textstyle/isengrave/) { get; } | Текст выгравирован |
+| [IsItalic](../../aspose.pub/textstyle/isitalic/) { get; } | Текст курсивный |
+| [IsOutline](../../aspose.pub/textstyle/isoutline/) { get; } | Текст обведён контуром |
+| [IsShadow](../../aspose.pub/textstyle/isshadow/) { get; } | Текст имеет тень |
+| [IsSmallCapsMode](../../aspose.pub/textstyle/issmallcapsmode/) { get; } | Включён режим малых заглавных букв |
+| [Locale](../../aspose.pub/textstyle/locale/) { get; } | Идентификатор локали |
+| [RawTextSize](../../aspose.pub/textstyle/rawtextsize/) { get; } | Размер текста в метриках PUB (в EMU) |
+| [ScaleValue](../../aspose.pub/textstyle/scalevalue/) { get; } | Значение масштаба |
+| [SuperscriptType](../../aspose.pub/textstyle/superscripttype/) { get; } | Тип надстрочного текста |
+| [UnderlineType](../../aspose.pub/textstyle/underlinetype/) { get; } | Тип подчёркивания текста |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CalculateTextSize](../../aspose.pub/textstyle/calculatetextsize)() | Вычисляет размер текста в пунктах |
-| [SetColorIndex](../../aspose.pub/textstyle/setcolorindex)(int) | Устанавливает индекс цвета в Document.Colors array |
-| [SetFontIndex](../../aspose.pub/textstyle/setfontindex)(int) | Устанавливает индекс имени шрифта в Document.FontNames array |
-| [SetIsAllCapsMode](../../aspose.pub/textstyle/setisallcapsmode)(bool) | Включает/отключает режим всех заглавных букв для text |
-| [SetIsBold](../../aspose.pub/textstyle/setisbold)(bool) | Устанавливает текст жирным шрифтом |
-| [SetIsEmboss](../../aspose.pub/textstyle/setisemboss)(bool) | Наборы с тиснением текста |
-| [SetIsEngrave](../../aspose.pub/textstyle/setisengrave)(bool) | Наборы выгравированы текстом |
-| [SetIsItalic](../../aspose.pub/textstyle/setisitalic)(bool) | Устанавливает текст курсивом |
-| [SetIsOutline](../../aspose.pub/textstyle/setisoutline)(bool) | Устанавливает текст, выделенный |
-| [SetIsShadow](../../aspose.pub/textstyle/setisshadow)(bool) | Устанавливает затененный текст |
-| [SetIsSmallCapsMode](../../aspose.pub/textstyle/setissmallcapsmode)(bool) | Включает/отключает режим малых заглавных букв для text |
-| [SetLocale](../../aspose.pub/textstyle/setlocale)(int) | Устанавливает идентификатор локали |
-| [SetRawTextSize](../../aspose.pub/textstyle/setrawtextsize)(int) | Устанавливает размер текста в метриках PUB (в EMU) |
-| [SetScaleValue](../../aspose.pub/textstyle/setscalevalue)(double) | Устанавливает значение scale |
-| [SetSuperscriptType](../../aspose.pub/textstyle/setsuperscripttype)(SuperscriptType) | Устанавливает тип верхнего индекса |
-| [SetUnderlineType](../../aspose.pub/textstyle/setunderlinetype)(UnderlineType) | Устанавливает тип подчеркивания для text |
+| [CalculateTextSize](../../aspose.pub/textstyle/calculatetextsize/)() | Вычисляет размер текста в пунктах |
+| [SetColorIndex](../../aspose.pub/textstyle/setcolorindex/)(int) | Устанавливает индекс цвета в массиве Document.Colors |
+| [SetFontIndex](../../aspose.pub/textstyle/setfontindex/)(int) | Устанавливает индекс имени шрифта в массиве Document.FontNames |
+| [SetIsAllCapsMode](../../aspose.pub/textstyle/setisallcapsmode/)(bool) | Включает/выключает режим всех заглавных букв для текста |
+| [SetIsBold](../../aspose.pub/textstyle/setisbold/)(bool) | Устанавливает текст полужирным |
+| [SetIsEmboss](../../aspose.pub/textstyle/setisemboss/)(bool) | Устанавливает текст рельефным |
+| [SetIsEngrave](../../aspose.pub/textstyle/setisengrave/)(bool) | Устанавливает текст выгравированным |
+| [SetIsItalic](../../aspose.pub/textstyle/setisitalic/)(bool) | Устанавливает текст курсивом |
+| [SetIsOutline](../../aspose.pub/textstyle/setisoutline/)(bool) | Устанавливает текст обведённым |
+| [SetIsShadow](../../aspose.pub/textstyle/setisshadow/)(bool) | Устанавливает текст с тенью |
+| [SetIsSmallCapsMode](../../aspose.pub/textstyle/setissmallcapsmode/)(bool) | Включает/выключает режим малых заглавных букв для текста |
+| [SetLocale](../../aspose.pub/textstyle/setlocale/)(int) | Устанавливает идентификатор локали |
+| [SetRawTextSize](../../aspose.pub/textstyle/setrawtextsize/)(int) | Устанавливает размер текста в метриках PUB (в EMU) |
+| [SetScaleValue](../../aspose.pub/textstyle/setscalevalue/)(double) | Устанавливает значение масштаба |
+| [SetSuperscriptType](../../aspose.pub/textstyle/setsuperscripttype/)(SuperscriptType) | Устанавливает тип надстрочного текста |
+| [SetUnderlineType](../../aspose.pub/textstyle/setunderlinetype/)(UnderlineType) | Устанавливает тип подчеркивания для текста |
 
-### Смотрите также
+### См. также
 
-* class [BaseStyle](../basestyle)
-* пространство имен [Aspose.Pub](../../aspose.pub)
-* сборка [Aspose.PUB](../../)
+* class [BaseStyle](../basestyle/)
+* namespace [Aspose.Pub](../../aspose.pub/)
+* assembly [Aspose.PUB](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.PUB.dll -->
+
