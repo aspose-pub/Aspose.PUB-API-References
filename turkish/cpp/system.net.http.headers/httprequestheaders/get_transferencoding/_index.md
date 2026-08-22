@@ -1,0 +1,31 @@
+---
+title: "System::Net::Http::Headers::HttpRequestHeaders::get_TransferEncoding yöntemi"
+linktitle: "get_TransferEncoding"
+second_title: "Aspose.PUB için C++"
+description: "System::Net::Http::Headers::HttpRequestHeaders::get_TransferEncoding yöntemi. C++'ta ''Transfer-Encoding'' başlığının değerini döndürür."
+type: docs
+weight: 2800
+url: /tr/cpp/system.net.http.headers/httprequestheaders/get_transferencoding/
+---
+## HttpRequestHeaders::get_TransferEncoding method
+
+
+'Transfer-Encoding' başlığının değerini döndürür.
+
+```cpp
+System::SharedPtr<HttpHeaderValueCollection<System::SharedPtr<TransferCodingHeaderValue>>> System::Net::Http::Headers::HttpRequestHeaders::get_TransferEncoding()
+```
+
+
+### ReturnValue
+
+'Transfer-Encoding' başlığının bir değeri.
+
+## Ayrıca Bakınız
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [HttpHeaderValueCollection](../../httpheadervaluecollection/)
+* Class [TransferCodingHeaderValue](../../transfercodingheadervalue/)
+* Class [HttpRequestHeaders](../)
+* Namespace [System::Net::Http::Headers](../../)
+* Library [Aspose.PUB for C++](../../../)
