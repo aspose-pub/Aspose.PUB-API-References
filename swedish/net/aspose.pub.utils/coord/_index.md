@@ -1,14 +1,14 @@
 ---
-title: Coord
-second_title: Aspose.PUB för .NET API-referens
-description: Denna klass utformad för att representera data relaterade till koordinater för PUBfält. Varje fält i PUB har koordinater har 2 par koordinater koordinater för övre vänstra hörnet XLeft YTop och koordinater för det nedre högra hörnet XRight YBottom . Alla koordinater representerade i ett speciellt metriskt system  English Metric UnitEMUs. Ytterligare methods lades till i den här klassen för att omvandla koordinatvärden från engelska metriska enheter till tum.
+title: "Klass Coord"
+second_title: "Aspose.PUB för .NET API-referens"
+description: "Aspose.Pub.Utils.Coord-klass. Denna klass är utformad för att representera data relaterade till koordinater för PUB-fält. Varje fält i PUB har koordinater och har två par koordinater: koordinater för övre vänstra hörnet XLeft YTop och koordinater för nedre högra hörnet XRight YBottom. Alla koordinater representeras i det speciella mätsystemet English Metric Unit (EMUs). Ytterligare metoder har lagts till i denna klass för att omvandla koordinatvärden från engelska måttenheter till tum"
 type: docs
-weight: 220
+weight: 350
 url: /sv/net/aspose.pub.utils/coord/
 ---
 ## Coord class
 
-Denna klass utformad för att representera data relaterade till koordinater för PUB-fält. Varje fält i PUB har koordinater har 2 par koordinater: koordinater för övre vänstra hörnet (XLeft, YTop) och koordinater för det nedre högra hörnet (XRight, YBottom) . Alla koordinater representerade i ett speciellt metriskt system - English Metric Unit(EMUs). Ytterligare methods lades till i den här klassen för att omvandla koordinatvärden från engelska metriska enheter till tum.
+Denna klass är avsedd att representera data relaterade till koordinater för PUB-fält. Varje fält i PUB har koordinater som består av 2 par: koordinater för övre vänstra hörnet (XLeft, YTop) och koordinater för nedre högra hörnet (XRight, YBottom). Alla koordinater representeras i ett speciellt mätsystem – English Metric Unit(EMUs). Ytterligare metoder har lagts till i denna klass för att omvandla koordinatvärden från engelska måttenheter till tum.
 
 ```csharp
 public class Coord : ICloneable
@@ -16,37 +16,37 @@ public class Coord : ICloneable
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Coord](coord#constructor)() | Konstruktör |
-| [Coord](coord#constructor_1)(int, int, int, int) | Konstruktör |
+| [Coord](coord/#constructor)() | Konstruktor |
+| [Coord](coord/#constructor_1)(int, int, int, int) | Konstruktor |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [XLeft](../../aspose.pub.utils/coord/xleft) { get; } | X-koordinat för det övre vänstra hörnet i EMUs |
-| [XRight](../../aspose.pub.utils/coord/xright) { get; } | X-koordinat för det nedre högra hörnet i EMUs |
-| [YBottom](../../aspose.pub.utils/coord/ybottom) { get; } | Y-koordinat för nedre högra hörnet i EMUs |
-| [YTop](../../aspose.pub.utils/coord/ytop) { get; } | Y-koordinat för övre vänstra hörnet i EMUs |
+| [XLeft](../../aspose.pub.utils/coord/xleft/) { get; } | X-koordinat för övre vänstra hörnet i EMU |
+| [XRight](../../aspose.pub.utils/coord/xright/) { get; } | X-koordinat för nedre högra hörnet i EMU |
+| [YBottom](../../aspose.pub.utils/coord/ybottom/) { get; } | Y-koordinat för nedre högra hörnet i EMU |
+| [YTop](../../aspose.pub.utils/coord/ytop/) { get; } | Y-koordinat för övre vänstra hörnet i EMU |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [CalculateHeight](../../aspose.pub.utils/coord/calculateheight)() | Beräknar höjden på figuren (nuvarande Coord-objekt) och returnerar resultatet i inches |
-| [CalculateWidth](../../aspose.pub.utils/coord/calculatewidth)() | Beräknar bredden på figuren (nuvarande Coord-objekt) och returnerar resultatet i inches |
-| [CalculateX](../../aspose.pub.utils/coord/calculatex#calculatex)() | Omvandlar värde för X-koordinat från naturligt PUB-metriskt system till inches |
-| [CalculateX](../../aspose.pub.utils/coord/calculatex#calculatex_1)(double) | Omvandlar värde för X-koordinat från naturligt PUB-metriskt system till inches |
-| [CalculateY](../../aspose.pub.utils/coord/calculatey#calculatey)() | Omvandlar värde för Y-koordinat från naturligt PUB-metriskt system till inches |
-| [CalculateY](../../aspose.pub.utils/coord/calculatey#calculatey_1)(double) | Omvandlar värde för Y-koordinat från naturligt PUB-metriskt system till inches |
-| [Clone](../../aspose.pub.utils/coord/clone)() | Skapad kopia av object |
-| [GetHeight](../../aspose.pub.utils/coord/getheight)() | Returnerar höjden på det aktuella Coord-objektet i naturliga PUB-metrics |
-| [GetWidth](../../aspose.pub.utils/coord/getwidth)() | Returnerar bredden på nuvarande Coord-objekt i naturliga PUB-metrics |
+| [CalculateHeight](../../aspose.pub.utils/coord/calculateheight/)() | Beräknar figurens höjd (aktuellt Coord-objekt) och returnerar resultatet i tum |
+| [CalculateWidth](../../aspose.pub.utils/coord/calculatewidth/)() | Beräknar figurens bredd (aktuellt Coord-objekt) och returnerar resultatet i tum |
+| [CalculateX](../../aspose.pub.utils/coord/calculatex/#calculatex)() | Omvandlar värdet för X-koordinaten från PUB:s naturliga mätsystem till tum |
+| [CalculateX](../../aspose.pub.utils/coord/calculatex/#calculatex_1)(double) | Omvandlar värdet för X-koordinaten från PUB:s naturliga mätsystem till tum |
+| [CalculateY](../../aspose.pub.utils/coord/calculatey/#calculatey)() | Omvandlar värdet för Y-koordinaten från PUB:s naturliga mätsystem till tum |
+| [CalculateY](../../aspose.pub.utils/coord/calculatey/#calculatey_1)(double) | Omvandlar värdet för Y-koordinaten från PUB:s naturliga mätsystem till tum |
+| [Clone](../../aspose.pub.utils/coord/clone/)() | Skapade en kopia av objektet |
+| [GetHeight](../../aspose.pub.utils/coord/getheight/)() | Returnerar höjden på det aktuella Coord-objektet i naturliga PUB-mått |
+| [GetWidth](../../aspose.pub.utils/coord/getwidth/)() | Returnerar bredden på det aktuella Coord-objektet i naturliga PUB-mått |
 
 ### Se även
 
-* namnutrymme [Aspose.Pub.Utils](../../aspose.pub.utils)
-* hopsättning [Aspose.PUB](../../)
+* namespace [Aspose.Pub.Utils](../../aspose.pub.utils/)
+* assembly [Aspose.PUB](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.PUB.dll -->
+
