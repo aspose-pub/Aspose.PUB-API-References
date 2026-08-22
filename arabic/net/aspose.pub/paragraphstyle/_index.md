@@ -1,64 +1,64 @@
 ---
-title: ParagraphStyle
-second_title: Aspose.PUB لمرجع .NET API
-description: يصف هذا الفصل نمط PUB فقرة
+title: "الفئة ParagraphStyle"
+second_title: "Aspose.PUB لـ .NET مرجع API"
+description: "الفئة Aspose.Pub.ParagraphStyle. تصف هذه الفئة نمط الفقرة في PUB"
 type: docs
-weight: 140
+weight: 240
 url: /ar/net/aspose.pub/paragraphstyle/
 ---
 ## ParagraphStyle class
 
-يصف هذا الفصل نمط PUB فقرة
+هذه الفئة تصف نمط فقرة PUB
 
 ```csharp
 public class ParagraphStyle : BaseStyle
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ParagraphStyle](paragraphstyle)() | Default_Constructor |
+| [ParagraphStyle](paragraphstyle/)() | المنشئ |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Align](../../aspose.pub/paragraphstyle/align) { get; } | نوع المحاذاة |
-| [BottomIndent](../../aspose.pub/paragraphstyle/bottomindent) { get; } | مسافة بادئة سفلية |
-| [DefaultStyleIndex](../../aspose.pub/paragraphstyle/defaultstyleindex) { get; } | فهرس نمط النص الافتراضي في Document.DefaultTextStyles array |
-| [FirstLineIndent](../../aspose.pub/paragraphstyle/firstlineindent) { get; } | المسافة البادئة للسطر الأول |
-| [IsEmpty](../../aspose.pub/basestyle/isempty) { get; } | النمط غير مهيأ |
-| [IsList](../../aspose.pub/paragraphstyle/islist) { get; } | هل قائمة الفقرة |
-| [IsOrderedList](../../aspose.pub/paragraphstyle/isorderedlist) { get; } | هي قائمة مرتبة الفقرة |
-| [LeftIndent](../../aspose.pub/paragraphstyle/leftindent) { get; } | مسافة بادئة يسرى |
-| [LineSpacingType](../../aspose.pub/paragraphstyle/linespacingtype) { get; } | نوع تباعد الأسطر |
-| [LineSpacingValue](../../aspose.pub/paragraphstyle/linespacingvalue) { get; } | قيمة تباعد الأسطر |
-| [RightIndent](../../aspose.pub/paragraphstyle/rightindent) { get; } | مسافة بادئة يمنى |
-| [TopIndent](../../aspose.pub/paragraphstyle/topindent) { get; } | قيمة المسافة البادئة العلوية |
-| [UnorderedListChar](../../aspose.pub/paragraphstyle/unorderedlistchar) { get; } | حرف لقائمة غير مرتبة في الفقرة ، إذا كانت الفقرة عبارة عن قائمة غير مرتبة |
+| [Align](../../aspose.pub/paragraphstyle/align/) { get; } | نوع المحاذاة |
+| [BottomIndent](../../aspose.pub/paragraphstyle/bottomindent/) { get; } | المسافة السفلية |
+| [DefaultStyleIndex](../../aspose.pub/paragraphstyle/defaultstyleindex/) { get; } | فهرس نمط النص الافتراضي في مصفوفة Document.DefaultTextStyles |
+| [FirstLineIndent](../../aspose.pub/paragraphstyle/firstlineindent/) { get; } | المسافة للسطرة الأولى |
+| [IsEmpty](../../aspose.pub/basestyle/isempty/) { get; } | هل النمط غير مهيأ |
+| [IsList](../../aspose.pub/paragraphstyle/islist/) { get; } | هل الفقرة قائمة |
+| [IsOrderedList](../../aspose.pub/paragraphstyle/isorderedlist/) { get; } | هل الفقرة قائمة مرتبة |
+| [LeftIndent](../../aspose.pub/paragraphstyle/leftindent/) { get; } | المسافة اليسرى |
+| [LineSpacingType](../../aspose.pub/paragraphstyle/linespacingtype/) { get; } | نوع تباعد الأسطر |
+| [LineSpacingValue](../../aspose.pub/paragraphstyle/linespacingvalue/) { get; } | قيمة تباعد الأسطر |
+| [RightIndent](../../aspose.pub/paragraphstyle/rightindent/) { get; } | المسافة اليمنى |
+| [TopIndent](../../aspose.pub/paragraphstyle/topindent/) { get; } | قيمة الإزاحة العلوية |
+| [UnorderedListChar](../../aspose.pub/paragraphstyle/unorderedlistchar/) { get; } | حرف للقائمة غير المرتبة في الفقرة، إذا كانت الفقرة قائمة غير مرتبة |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SetAlignmentType](../../aspose.pub/paragraphstyle/setalignmenttype)(AlignmentType) | يحدد نوع المحاذاة |
-| [SetBottomIndent](../../aspose.pub/paragraphstyle/setbottomindent)(int) | تعيين المسافة البادئة السفلية |
-| [SetDefaultStyleIndex](../../aspose.pub/paragraphstyle/setdefaultstyleindex)(int) | يعين الفهرس لنمط النص الافتراضي في Document.DefaultTextStyles array |
-| [SetFirstLineIndent](../../aspose.pub/paragraphstyle/setfirstlineindent)(int) | تعيين المسافة البادئة للسطر الأول |
-| [SetIsList](../../aspose.pub/paragraphstyle/setislist)(bool) | المجموعات عبارة عن قائمة فقرة |
-| [SetIsOrderedList](../../aspose.pub/paragraphstyle/setisorderedlist)(bool) | يحدد ما إذا كانت الفقرة مرتبة list |
-| [SetLeftIndent](../../aspose.pub/paragraphstyle/setleftindent)(int) | تعيين المسافة البادئة اليسرى |
-| [SetLineSpacingType](../../aspose.pub/paragraphstyle/setlinespacingtype)(LineSpacingType) | تعيين نوع تباعد الأسطر |
-| [SetLineSpacingValue](../../aspose.pub/paragraphstyle/setlinespacingvalue)(double) | تعيين قيمة تباعد الأسطر |
-| [SetRightIndent](../../aspose.pub/paragraphstyle/setrightindent)(int) | تعيين المسافة البادئة اليمنى |
-| [SetTopIndent](../../aspose.pub/paragraphstyle/settopindent)(int) | تعيين المسافة البادئة العلوية |
-| [SetUnorderedListChar](../../aspose.pub/paragraphstyle/setunorderedlistchar)(char) | تعيين حرف لقائمة غير مرتبة في الفقرة |
+| [SetAlignmentType](../../aspose.pub/paragraphstyle/setalignmenttype/)(AlignmentType) | يضبط نوع المحاذاة |
+| [SetBottomIndent](../../aspose.pub/paragraphstyle/setbottomindent/)(int) | يضبط الإزاحة السفلية |
+| [SetDefaultStyleIndex](../../aspose.pub/paragraphstyle/setdefaultstyleindex/)(int) | يضبط الفهرس لنمط النص الافتراضي في مصفوفة Document.DefaultTextStyles |
+| [SetFirstLineIndent](../../aspose.pub/paragraphstyle/setfirstlineindent/)(int) | يضبط إزاحة السطر الأول |
+| [SetIsList](../../aspose.pub/paragraphstyle/setislist/)(bool) | يضبط ما إذا كانت الفقرة قائمة |
+| [SetIsOrderedList](../../aspose.pub/paragraphstyle/setisorderedlist/)(bool) | يضبط ما إذا كانت الفقرة قائمة مرتبة |
+| [SetLeftIndent](../../aspose.pub/paragraphstyle/setleftindent/)(int) | يضبط الإزاحة اليسرى |
+| [SetLineSpacingType](../../aspose.pub/paragraphstyle/setlinespacingtype/)(LineSpacingType) | يضبط نوع تباعد الأسطر |
+| [SetLineSpacingValue](../../aspose.pub/paragraphstyle/setlinespacingvalue/)(double) | يضبط قيمة تباعد الأسطر |
+| [SetRightIndent](../../aspose.pub/paragraphstyle/setrightindent/)(int) | يضبط الإزاحة اليمنى |
+| [SetTopIndent](../../aspose.pub/paragraphstyle/settopindent/)(int) | يضبط الإزاحة العلوية |
+| [SetUnorderedListChar](../../aspose.pub/paragraphstyle/setunorderedlistchar/)(char) | يضبط الحرف للقائمة غير المرتبة في الفقرة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [BaseStyle](../basestyle)
-* مساحة الاسم [Aspose.Pub](../../aspose.pub)
-* المجسم [Aspose.PUB](../../)
+* class [BaseStyle](../basestyle/)
+* namespace [Aspose.Pub](../../aspose.pub/)
+* assembly [Aspose.PUB](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.PUB.dll -->
+
