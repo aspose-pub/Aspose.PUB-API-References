@@ -1,64 +1,64 @@
 ---
-title: ParagraphStyle
-second_title: Aspose.PUB for .NET API Referansı
-description: Bu sınıf PUB paragrafının stilini açıklar
+title: "Sınıf ParagraphStyle"
+second_title: "Aspose.PUB için .NET API Referansı"
+description: "Aspose.Pub.ParagraphStyle sınıfı. Bu sınıf PUB paragrafının stilini tanımlar"
 type: docs
-weight: 140
+weight: 240
 url: /tr/net/aspose.pub/paragraphstyle/
 ---
 ## ParagraphStyle class
 
-Bu sınıf, PUB paragrafının stilini açıklar
+Bu sınıf, PUB paragrafının stilini tanımlar
 
 ```csharp
 public class ParagraphStyle : BaseStyle
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [ParagraphStyle](paragraphstyle)() | Default_Constructor |
+| [ParagraphStyle](paragraphstyle/)() | Yapıcı |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Align](../../aspose.pub/paragraphstyle/align) { get; } | Hizalama türü |
-| [BottomIndent](../../aspose.pub/paragraphstyle/bottomindent) { get; } | Alt girinti |
-| [DefaultStyleIndex](../../aspose.pub/paragraphstyle/defaultstyleindex) { get; } | Document.DefaultTextStyles dizisindeki varsayılan metin stili dizini |
-| [FirstLineIndent](../../aspose.pub/paragraphstyle/firstlineindent) { get; } | İlk satır girinti |
-| [IsEmpty](../../aspose.pub/basestyle/isempty) { get; } | Stil başlatılmamış mı |
-| [IsList](../../aspose.pub/paragraphstyle/islist) { get; } | Liste paragraf mı |
-| [IsOrderedList](../../aspose.pub/paragraphstyle/isorderedlist) { get; } | Paragraf sıralı liste mi |
-| [LeftIndent](../../aspose.pub/paragraphstyle/leftindent) { get; } | Sol girinti |
-| [LineSpacingType](../../aspose.pub/paragraphstyle/linespacingtype) { get; } | Satır aralığı türü |
-| [LineSpacingValue](../../aspose.pub/paragraphstyle/linespacingvalue) { get; } | Satır aralığı değeri |
-| [RightIndent](../../aspose.pub/paragraphstyle/rightindent) { get; } | Sağ girinti |
-| [TopIndent](../../aspose.pub/paragraphstyle/topindent) { get; } | Üst girinti değeri |
-| [UnorderedListChar](../../aspose.pub/paragraphstyle/unorderedlistchar) { get; } | Paragrafın sırasız bir liste olması durumunda, paragraftaki sırasız liste için karakter |
+| [Align](../../aspose.pub/paragraphstyle/align/) { get; } | Hizalama türü |
+| [BottomIndent](../../aspose.pub/paragraphstyle/bottomindent/) { get; } | Alt girinti |
+| [DefaultStyleIndex](../../aspose.pub/paragraphstyle/defaultstyleindex/) { get; } | Document.DefaultTextStyles dizisindeki varsayılan metin stilinin indeksi |
+| [FirstLineIndent](../../aspose.pub/paragraphstyle/firstlineindent/) { get; } | İlk satır girintisi |
+| [IsEmpty](../../aspose.pub/basestyle/isempty/) { get; } | Stil başlatılmadı mı |
+| [IsList](../../aspose.pub/paragraphstyle/islist/) { get; } | Liste paragrafı mı |
+| [IsOrderedList](../../aspose.pub/paragraphstyle/isorderedlist/) { get; } | Paragraf sıralı liste mi |
+| [LeftIndent](../../aspose.pub/paragraphstyle/leftindent/) { get; } | Sol girinti |
+| [LineSpacingType](../../aspose.pub/paragraphstyle/linespacingtype/) { get; } | Satır aralığı türü |
+| [LineSpacingValue](../../aspose.pub/paragraphstyle/linespacingvalue/) { get; } | Satır aralığının değeri |
+| [RightIndent](../../aspose.pub/paragraphstyle/rightindent/) { get; } | Sağ girinti |
+| [TopIndent](../../aspose.pub/paragraphstyle/topindent/) { get; } | Üst girinti değeri |
+| [UnorderedListChar](../../aspose.pub/paragraphstyle/unorderedlistchar/) { get; } | Paragrafta sırasız liste karakteri, eğer paragraf sırasız bir listedir |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [SetAlignmentType](../../aspose.pub/paragraphstyle/setalignmenttype)(AlignmentType) | Hizalama türünü ayarlar |
-| [SetBottomIndent](../../aspose.pub/paragraphstyle/setbottomindent)(int) | Alt girintiyi ayarlar |
-| [SetDefaultStyleIndex](../../aspose.pub/paragraphstyle/setdefaultstyleindex)(int) | Document.DefaultTextStyles array içindeki varsayılan metin stili için dizini ayarlar |
-| [SetFirstLineIndent](../../aspose.pub/paragraphstyle/setfirstlineindent)(int) | İlk satırı ayarlar indent |
-| [SetIsList](../../aspose.pub/paragraphstyle/setislist)(bool) | Kümeler paragraf listesidir |
-| [SetIsOrderedList](../../aspose.pub/paragraphstyle/setisorderedlist)(bool) | Paragrafın sıralı olup olmadığını ayarlar list |
-| [SetLeftIndent](../../aspose.pub/paragraphstyle/setleftindent)(int) | Sol girintiyi ayarlar |
-| [SetLineSpacingType](../../aspose.pub/paragraphstyle/setlinespacingtype)(LineSpacingType) | Satır aralığının türünü ayarlar |
-| [SetLineSpacingValue](../../aspose.pub/paragraphstyle/setlinespacingvalue)(double) | Satır aralığının değerini ayarlar |
-| [SetRightIndent](../../aspose.pub/paragraphstyle/setrightindent)(int) | Sağ girintiyi ayarlar |
-| [SetTopIndent](../../aspose.pub/paragraphstyle/settopindent)(int) | Üst girintiyi ayarlar |
-| [SetUnorderedListChar](../../aspose.pub/paragraphstyle/setunorderedlistchar)(char) | Paragraf içindeki sırasız liste için karakter ayarlar |
+| [SetAlignmentType](../../aspose.pub/paragraphstyle/setalignmenttype/)(AlignmentType) | Hizalama tipini ayarlar |
+| [SetBottomIndent](../../aspose.pub/paragraphstyle/setbottomindent/)(int) | Alt girintiyi ayarlar |
+| [SetDefaultStyleIndex](../../aspose.pub/paragraphstyle/setdefaultstyleindex/)(int) | Document.DefaultTextStyles dizisindeki varsayılan metin stilinin dizinini ayarlar |
+| [SetFirstLineIndent](../../aspose.pub/paragraphstyle/setfirstlineindent/)(int) | İlk satır girintisini ayarlar |
+| [SetIsList](../../aspose.pub/paragraphstyle/setislist/)(bool) | Paragrafın liste olup olmadığını ayarlar |
+| [SetIsOrderedList](../../aspose.pub/paragraphstyle/setisorderedlist/)(bool) | Paragrafın sıralı liste olup olmadığını ayarlar |
+| [SetLeftIndent](../../aspose.pub/paragraphstyle/setleftindent/)(int) | Sol girintiyi ayarlar |
+| [SetLineSpacingType](../../aspose.pub/paragraphstyle/setlinespacingtype/)(LineSpacingType) | Satır aralığı tipini ayarlar |
+| [SetLineSpacingValue](../../aspose.pub/paragraphstyle/setlinespacingvalue/)(double) | Satır aralığı değerini ayarlar |
+| [SetRightIndent](../../aspose.pub/paragraphstyle/setrightindent/)(int) | Sağ girintiyi ayarlar |
+| [SetTopIndent](../../aspose.pub/paragraphstyle/settopindent/)(int) | Üst girintiyi ayarlar |
+| [SetUnorderedListChar](../../aspose.pub/paragraphstyle/setunorderedlistchar/)(char) | Paragrafta sırasız liste karakterini ayarlar |
 
 ### Ayrıca bakınız
 
-* class [BaseStyle](../basestyle)
-* ad alanı [Aspose.Pub](../../aspose.pub)
-* toplantı [Aspose.PUB](../../)
+* class [BaseStyle](../basestyle/)
+* namespace [Aspose.Pub](../../aspose.pub/)
+* assembly [Aspose.PUB](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.PUB.dll -->
+

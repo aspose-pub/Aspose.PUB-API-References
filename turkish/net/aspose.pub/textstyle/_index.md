@@ -1,9 +1,9 @@
 ---
-title: TextStyle
-second_title: Aspose.PUB for .NET API Referansı
-description: PUB metin stilini tanımlar
+title: "Sınıf TextStyle"
+second_title: "Aspose.PUB için .NET API Referansı"
+description: "Aspose.Pub.TextStyle sınıfı. PUB metin stilini tanımlar."
 type: docs
-weight: 200
+weight: 330
 url: /tr/net/aspose.pub/textstyle/
 ---
 ## TextStyle class
@@ -14,58 +14,58 @@ PUB metin stilini tanımlar
 public class TextStyle : BaseStyle
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [TextStyle](textstyle)() | Default_Constructor |
+| [TextStyle](textstyle/)() | Yapıcı |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [ColorIndex](../../aspose.pub/textstyle/colorindex) { get; } | Document.Colors array içindeki renk dizinini alır |
-| [FontIndex](../../aspose.pub/textstyle/fontindex) { get; } | Document.FontNames array içindeki yazı tipi adının dizinini alır |
-| [IsAllCapsMode](../../aspose.pub/textstyle/isallcapsmode) { get; } | Tümü büyük harf modu etkin mi |
-| [IsBold](../../aspose.pub/textstyle/isbold) { get; } | Metin kalın mı |
-| [IsEmboss](../../aspose.pub/textstyle/isemboss) { get; } | Metin kabartmalı mı |
-| [IsEmpty](../../aspose.pub/basestyle/isempty) { get; } | Stil başlatılmamış mı |
-| [IsEngrave](../../aspose.pub/textstyle/isengrave) { get; } | Metin oyulmuş mu |
-| [IsItalic](../../aspose.pub/textstyle/isitalic) { get; } | Metin italik mi |
-| [IsOutline](../../aspose.pub/textstyle/isoutline) { get; } | Metin özetlenmiş mi |
-| [IsShadow](../../aspose.pub/textstyle/isshadow) { get; } | Metin gölgeli mi |
-| [IsSmallCapsMode](../../aspose.pub/textstyle/issmallcapsmode) { get; } | Küçük büyük harf modu etkin mi |
-| [Locale](../../aspose.pub/textstyle/locale) { get; } | Yerel ayar tanımlayıcısı |
-| [RawTextSize](../../aspose.pub/textstyle/rawtextsize) { get; } | PUB metriklerinde (EMU'larda) metnin boyutu |
-| [ScaleValue](../../aspose.pub/textstyle/scalevalue) { get; } | Ölçeğin değeri |
-| [SuperscriptType](../../aspose.pub/textstyle/superscripttype) { get; } | Üst simge türü |
-| [UnderlineType](../../aspose.pub/textstyle/underlinetype) { get; } | text için alt çizgi tipi |
+| [ColorIndex](../../aspose.pub/textstyle/colorindex/) { get; } | Document.Colors dizisindeki rengin indeksini alır. |
+| [FontIndex](../../aspose.pub/textstyle/fontindex/) { get; } | Document.FontNames dizisindeki yazı tipi adının indeksini alır. |
+| [IsAllCapsMode](../../aspose.pub/textstyle/isallcapsmode/) { get; } | Tüm büyük harf modu etkin mi |
+| [IsBold](../../aspose.pub/textstyle/isbold/) { get; } | Metin kalın mı |
+| [IsEmboss](../../aspose.pub/textstyle/isemboss/) { get; } | Metin kabartmalı mı |
+| [IsEmpty](../../aspose.pub/basestyle/isempty/) { get; } | Stil başlatılmadı mı |
+| [IsEngrave](../../aspose.pub/textstyle/isengrave/) { get; } | Metin oyuk mu |
+| [IsItalic](../../aspose.pub/textstyle/isitalic/) { get; } | Metin italik mi |
+| [IsOutline](../../aspose.pub/textstyle/isoutline/) { get; } | Metin kenarlıklı mı |
+| [IsShadow](../../aspose.pub/textstyle/isshadow/) { get; } | Metin gölgeli mi |
+| [IsSmallCapsMode](../../aspose.pub/textstyle/issmallcapsmode/) { get; } | Küçük büyük harf modu etkin mi |
+| [Locale](../../aspose.pub/textstyle/locale/) { get; } | Yerel tanımlayıcı |
+| [RawTextSize](../../aspose.pub/textstyle/rawtextsize/) { get; } | PUB ölçü birimlerinde (EMU'larda) metin boyutu |
+| [ScaleValue](../../aspose.pub/textstyle/scalevalue/) { get; } | Ölçek değeri |
+| [SuperscriptType](../../aspose.pub/textstyle/superscripttype/) { get; } | Üst simge türü |
+| [UnderlineType](../../aspose.pub/textstyle/underlinetype/) { get; } | Metin altı çizgi türü |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [CalculateTextSize](../../aspose.pub/textstyle/calculatetextsize)() | Metin boyutunu punto cinsinden hesaplar |
-| [SetColorIndex](../../aspose.pub/textstyle/setcolorindex)(int) | Document.Colors array içindeki renk dizinini ayarlar |
-| [SetFontIndex](../../aspose.pub/textstyle/setfontindex)(int) | Document.FontNames dizi içindeki yazı tipi adının dizinini ayarlar |
-| [SetIsAllCapsMode](../../aspose.pub/textstyle/setisallcapsmode)(bool) | text için tüm büyük harf modunu etkinleştirir/devre dışı bırakır |
-| [SetIsBold](../../aspose.pub/textstyle/setisbold)(bool) | Kümeler metindir bold |
-| [SetIsEmboss](../../aspose.pub/textstyle/setisemboss)(bool) | Kümeler kabartmalı metindir |
-| [SetIsEngrave](../../aspose.pub/textstyle/setisengrave)(bool) | Kümeler, oyulmuş metindir |
-| [SetIsItalic](../../aspose.pub/textstyle/setisitalic)(bool) | Kümeler metindir italic |
-| [SetIsOutline](../../aspose.pub/textstyle/setisoutline)(bool) | Kümeler, özetlenen metindir |
-| [SetIsShadow](../../aspose.pub/textstyle/setisshadow)(bool) | Kümeler metin gölgelidir |
-| [SetIsSmallCapsMode](../../aspose.pub/textstyle/setissmallcapsmode)(bool) | text için küçük büyük harf modunu etkinleştirir/devre dışı bırakır |
-| [SetLocale](../../aspose.pub/textstyle/setlocale)(int) | Yerel ayar tanımlayıcısını ayarlar |
-| [SetRawTextSize](../../aspose.pub/textstyle/setrawtextsize)(int) | PUB metriklerinde (EMU'larda) metin boyutunu ayarlar |
-| [SetScaleValue](../../aspose.pub/textstyle/setscalevalue)(double) | Scale değerini ayarlar |
-| [SetSuperscriptType](../../aspose.pub/textstyle/setsuperscripttype)(SuperscriptType) | superscript türünü ayarlar |
-| [SetUnderlineType](../../aspose.pub/textstyle/setunderlinetype)(UnderlineType) | text için alt çizgi türünü ayarlar |
+| [CalculateTextSize](../../aspose.pub/textstyle/calculatetextsize/)() | Metin boyutunu puan cinsinden hesaplar. |
+| [SetColorIndex](../../aspose.pub/textstyle/setcolorindex/)(int) | Document.Colors dizisindeki rengin indeksini ayarlar. |
+| [SetFontIndex](../../aspose.pub/textstyle/setfontindex/)(int) | Document.FontNames dizisindeki yazı tipi adının indeksini ayarlar. |
+| [SetIsAllCapsMode](../../aspose.pub/textstyle/setisallcapsmode/)(bool) | Metin için tüm büyük harf modunu etkinleştirir/devre dışı bırakır. |
+| [SetIsBold](../../aspose.pub/textstyle/setisbold/)(bool) | Metni kalın olarak ayarlar |
+| [SetIsEmboss](../../aspose.pub/textstyle/setisemboss/)(bool) | Metni kabartmalı olarak ayarlar |
+| [SetIsEngrave](../../aspose.pub/textstyle/setisengrave/)(bool) | Metni oyma olarak ayarlar |
+| [SetIsItalic](../../aspose.pub/textstyle/setisitalic/)(bool) | Metni italik olarak ayarlar |
+| [SetIsOutline](../../aspose.pub/textstyle/setisoutline/)(bool) | Metni kenarlıklı olarak ayarlar |
+| [SetIsShadow](../../aspose.pub/textstyle/setisshadow/)(bool) | Metni gölgeli olarak ayarlar |
+| [SetIsSmallCapsMode](../../aspose.pub/textstyle/setissmallcapsmode/)(bool) | Metin için küçük harf büyük harf modunu etkinleştirir/devre dışı bırakır |
+| [SetLocale](../../aspose.pub/textstyle/setlocale/)(int) | Yerel ayar tanımlayıcısını ayarlar |
+| [SetRawTextSize](../../aspose.pub/textstyle/setrawtextsize/)(int) | Metnin boyutunu PUB ölçü birimlerinde (EMU'larda) ayarlar |
+| [SetScaleValue](../../aspose.pub/textstyle/setscalevalue/)(double) | Ölçek değerini ayarlar |
+| [SetSuperscriptType](../../aspose.pub/textstyle/setsuperscripttype/)(SuperscriptType) | Üst simge tipini ayarlar |
+| [SetUnderlineType](../../aspose.pub/textstyle/setunderlinetype/)(UnderlineType) | Metin için alt çizgi tipini ayarlar |
 
 ### Ayrıca bakınız
 
-* class [BaseStyle](../basestyle)
-* ad alanı [Aspose.Pub](../../aspose.pub)
-* toplantı [Aspose.PUB](../../)
+* class [BaseStyle](../basestyle/)
+* namespace [Aspose.Pub](../../aspose.pub/)
+* assembly [Aspose.PUB](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.PUB.dll -->
+

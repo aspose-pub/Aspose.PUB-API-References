@@ -1,52 +1,52 @@
 ---
-title: Coord
-second_title: Aspose.PUB for .NET API Referansı
-description: Bu sınıf PUB alanlarının koordinatlarıyla ilgili verileri temsil etmek için tasarlanmıştır. PUBdaki her alanın koordinatları 2 çift koordinata sahiptir sol üst köşenin koordinatları XLeft YÜst ve sağ alt köşenin koordinatlarıXRight YBottom . Özel metrik sistemde temsil edilen tüm koordinatlar  İngiliz Metrik Birimi EMUlar. Koordinat değerlerini ingilizce metrik birimlerden inçe dönüştürmek için bu sınıfa ek yöntemler eklendi.
+title: "Sınıf Coord"
+second_title: "Aspose.PUB için .NET API Referansı"
+description: "Aspose.Pub.Utils.Coord sınıfı. Bu sınıf, PUB alanlarının koordinatlarıyla ilgili verileri temsil etmek için tasarlanmıştır. PUB'daki her alan, üst‑sol köşe XLeft YTop ve alt‑sağ köşe XRight YBottom koordinat çiftlerine sahiptir. Tüm koordinatlar özel bir ölçüm sistemi olan İngiliz Metriği Birimi (EMU) ile temsil edilir. Bu sınıfa, koordinat değerlerini İngiliz metrik birimlerinden inçlere dönüştürmek için ek yöntemler eklenmiştir."
 type: docs
-weight: 220
+weight: 350
 url: /tr/net/aspose.pub.utils/coord/
 ---
 ## Coord class
 
-Bu sınıf, PUB alanlarının koordinatlarıyla ilgili verileri temsil etmek için tasarlanmıştır. PUB'daki her alanın koordinatları 2 çift koordinata sahiptir: sol üst köşenin koordinatları (XLeft, YÜst) ve sağ alt köşenin koordinatları(XRight, YBottom) . Özel metrik sistemde temsil edilen tüm koordinatlar - İngiliz Metrik Birimi (EMU'lar). Koordinat değerlerini ingilizce metrik birimlerden inç'e dönüştürmek için bu sınıfa ek yöntemler eklendi.
+Bu sınıf, PUB alanlarının koordinatlarıyla ilgili verileri temsil etmek üzere tasarlanmıştır. PUB'daki her alan, iki çift koordinata sahiptir: sol üst köşe koordinatları (XLeft, YTop) ve sağ alt köşe koordinatları (XRight, YBottom). Tüm koordinatlar özel bir ölçüm sisteminde - İngiliz Metriği Birimi (EMUs) - temsil edilir. Bu sınıfa, koordinat değerlerini İngiliz ölçü birimlerinden inçlere dönüştürmek için ek yöntemler eklenmiştir.
 
 ```csharp
 public class Coord : ICloneable
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Coord](coord#constructor)() | Yapıcı |
-| [Coord](coord#constructor_1)(int, int, int, int) | Yapıcı |
+| [Coord](coord/#constructor)() | Yapıcı |
+| [Coord](coord/#constructor_1)(int, int, int, int) | Yapıcı |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [XLeft](../../aspose.pub.utils/coord/xleft) { get; } | EMU'larda sol üst köşenin X koordinatı |
-| [XRight](../../aspose.pub.utils/coord/xright) { get; } | EMU'larda sağ alt köşenin X koordinatı |
-| [YBottom](../../aspose.pub.utils/coord/ybottom) { get; } | EMU'larda sağ alt köşenin Y koordinatı |
-| [YTop](../../aspose.pub.utils/coord/ytop) { get; } | EMU'larda sol üst köşenin Y koordinatı |
+| [XLeft](../../aspose.pub.utils/coord/xleft/) { get; } | Üst‑sol köşenin X koordinatı (EMU cinsinden) |
+| [XRight](../../aspose.pub.utils/coord/xright/) { get; } | Alt‑sağ köşenin X koordinatı (EMU cinsinden) |
+| [YBottom](../../aspose.pub.utils/coord/ybottom/) { get; } | Alt‑sağ köşenin Y koordinatı (EMU cinsinden) |
+| [YTop](../../aspose.pub.utils/coord/ytop/) { get; } | Üst‑sol köşenin Y koordinatı (EMU cinsinden) |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [CalculateHeight](../../aspose.pub.utils/coord/calculateheight)() | Şeklin yüksekliğini hesaplar (geçerli Coord nesnesi) ve sonucu inç olarak döndürür |
-| [CalculateWidth](../../aspose.pub.utils/coord/calculatewidth)() | Şeklin genişliğini (geçerli Coord nesnesi) hesaplar ve sonucu inç olarak döndürür |
-| [CalculateX](../../aspose.pub.utils/coord/calculatex#calculatex)() | Doğal PUB metrik sisteminden X koordinatı değerini inç'e dönüştürür |
-| [CalculateX](../../aspose.pub.utils/coord/calculatex#calculatex_1)(double) | Doğal PUB metrik sisteminden X koordinatı değerini inç'e dönüştürür |
-| [CalculateY](../../aspose.pub.utils/coord/calculatey#calculatey)() | Doğal PUB metrik sisteminden Y koordinatı değerini inç'e dönüştürür |
-| [CalculateY](../../aspose.pub.utils/coord/calculatey#calculatey_1)(double) | Doğal PUB metrik sisteminden Y koordinatı değerini inç'e dönüştürür |
-| [Clone](../../aspose.pub.utils/coord/clone)() | object öğesinin kopyası oluşturuldu |
-| [GetHeight](../../aspose.pub.utils/coord/getheight)() | Doğal PUB metriklerinde mevcut Coord nesnesinin yüksekliğini döndürür |
-| [GetWidth](../../aspose.pub.utils/coord/getwidth)() | Doğal PUB metriklerinde mevcut Coord nesnesinin genişliğini döndürür |
+| [CalculateHeight](../../aspose.pub.utils/coord/calculateheight/)() | Şeklin (geçerli Coord nesnesi) yüksekliğini hesaplar ve sonucu inç olarak döndürür |
+| [CalculateWidth](../../aspose.pub.utils/coord/calculatewidth/)() | Şeklin (geçerli Coord nesnesi) genişliğini hesaplar ve sonucu inç olarak döndürür |
+| [CalculateX](../../aspose.pub.utils/coord/calculatex/#calculatex)() | X‑koordinatı değerini doğal PUB metrik sisteminden inçlere dönüştürür |
+| [CalculateX](../../aspose.pub.utils/coord/calculatex/#calculatex_1)(double) | X‑koordinatı değerini doğal PUB metrik sisteminden inçlere dönüştürür |
+| [CalculateY](../../aspose.pub.utils/coord/calculatey/#calculatey)() | Y‑koordinatı değerini doğal PUB metrik sisteminden inçlere dönüştürür |
+| [CalculateY](../../aspose.pub.utils/coord/calculatey/#calculatey_1)(double) | Y‑koordinatı değerini doğal PUB metrik sisteminden inçlere dönüştürür |
+| [Clone](../../aspose.pub.utils/coord/clone/)() | Nesnenin bir kopyası oluşturuldu |
+| [GetHeight](../../aspose.pub.utils/coord/getheight/)() | Mevcut Coord nesnesinin yüksekliğini doğal PUB ölçü birimlerinde döndürür |
+| [GetWidth](../../aspose.pub.utils/coord/getwidth/)() | Mevcut Coord nesnesinin genişliğini doğal PUB ölçü birimlerinde döndürür |
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Pub.Utils](../../aspose.pub.utils)
-* toplantı [Aspose.PUB](../../)
+* namespace [Aspose.Pub.Utils](../../aspose.pub.utils/)
+* assembly [Aspose.PUB](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.PUB.dll -->
+
